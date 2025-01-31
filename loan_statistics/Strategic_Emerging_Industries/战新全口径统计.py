@@ -1,9 +1,9 @@
 import pandas as pd
 
 #Read
-loan_2023_12_xls = pd.read_excel('二营12月末--提供.xls', sheet_name='Sheet1')
-loan_2023_12_xls.to_excel('二营12月末--提供.xlsx', engine='openpyxl', index=False)
-loan_2023_12 = pd.read_excel('二营12月末--提供.xlsx', sheet_name='Sheet1')
+loan_2023_12_xls = pd.read_excel('12月末--提供.xls', sheet_name='Sheet1')
+loan_2023_12_xls.to_excel('12月末--提供.xlsx', engine='openpyxl', index=False)
+loan_2023_12 = pd.read_excel('12月末--提供.xlsx', sheet_name='Sheet1')
 loan_2024_06 = pd.read_excel('战新完成数字明细202406--提供.xlsx', sheet_name='Sheet6')
 
 #Select
